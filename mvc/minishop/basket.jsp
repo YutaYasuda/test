@@ -36,7 +36,7 @@
               <input type="submit" value="変更" />
             </td>
           </form>
-            <!--  <%= itemBasketBean.getItemQuantity(i) %></td> -->
+            <!--  aaaaaaaaaa<%= itemBasketBean.getItemQuantity(i) %></td> -->
             <td class="td_right">&yen;<%= df.format(itemBasketBean.getTotal(i)) %></td>
             <form method="POST" action="itemcontroller">
               <input type="hidden" name="process" value="delete" />
