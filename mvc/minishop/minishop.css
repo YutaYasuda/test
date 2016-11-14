@@ -1,0 +1,25 @@
+/* テーブルの枠線を1pxに */
+table, th, td{
+  border: 1px solid;
+}
+
+/*セル内の上下の余白を3px、左右の予覚を10pxに　*/
+th, td{
+  padding: 3px 10px 3px 10px;
+}
+
+/*セル内のデータを右詰め表示*/
+.td_right{
+  text-align: right;
+}
+
+/*セル内んおデータをセンター表示*/
+.td_center{
+  text-align: center;
+}
+
+/*画像データのサイズを60%に*/
+img.detail_img{
+  width: 60%;
+  height: 60%;
+  }

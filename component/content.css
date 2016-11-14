@@ -1,0 +1,22 @@
+/* body要素内の文字列をセンタリング */
+body{text-align: center;}
+
+/* <div id="main">~</div>全体をセンタリング*/
+#main{margin: 0 auto;}/*上下０、左右自動*/
+
+h1{
+  text-align: right; /*文字列を左詰めに配置*/
+  background-color: #7799dd; /*背景色*/
+  color: #ffffff; /*文字色を白に*/
+}
+
+h3{
+  background-color: #7799dd;
+  color: #ffffff;
+}
+
+#content{
+  text-align: center;
+  color: #7799dd;
+  font-size: 2em;
+}

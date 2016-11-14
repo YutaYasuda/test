@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>MVC BMI FORM</title>
+</head>
+<body>
+  <h3>BMIによる肥満度調査</h3><br>
+名前・身長・体重を入力し、送信ボタンを押してください。<br>
+なお、身長は「センチメートル」、体重は「キログラム」単位とします。
+<form method="POST" action="bmivontroller">
+  名 前:<input type="text" name="name"><br>
+  身 長:<input type="text" name="height">cm(例：175cmの方は、175と入力してください。)<br>
+  体 重:<input type="text" name="weight">kg(例：65kgの方は、65と入力してください。）<br>
+  <input type="submit" value="計算する">
+  <input type="hidden" name="process" value="calc" />
+
+<hr>
+02組　43番　安田優太
+</form>
+</body>
+</html>
